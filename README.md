@@ -16,12 +16,9 @@ Sistema de gestão de sócio torcedor para clubes de futebol.
 - Simplicidade de uso para times pequenos sem estrutura de TI
 - Compromisso com a paixão do futebol, sem perder o rigor técnico
 
-## Produtos e serviços
+## Produto
 
 - **TorcePlus Core** — plataforma web/mobile de gestão de sócio torcedor (cadastro, planos, cobrança recorrente, benefícios)
-- **TorcePlus Ingressos** — módulo de venda e check-in de ingressos integrado ao cadastro de sócios
-- **TorcePlus Insights** — painel de indicadores para o clube (inadimplência, engajamento, churn, receita recorrente)
-- **App do Torcedor** — aplicativo para o sócio acompanhar benefícios, carteirinha digital e histórico de pagamentos
 
 ## Clientes
 
@@ -78,16 +75,24 @@ Diretoria Executiva
 
 ## Dados que o sistema produz e utiliza
 
-**Dados de entrada (fornecidos pelo torcedor ou pelo clube):**
+**Dados de fornecidos pelo torcedor ou pelo clube:**
+
 - Dados cadastrais: nome, CPF, data de nascimento, endereço, telefone, e-mail
 - Dados de pagamento: cartão de crédito (tokenizado), histórico de cobranças, forma de pagamento escolhida
 - Plano de sócio contratado e data de adesão
 - Preferências: time do coração dentro do clube (categoria/torcida organizada), setor preferido do estádio
 
+**Dados de fornecidos pelo clube**
+
+- Dados cadastrais da instituição: Razão social, CNPJ, logotipo oficial e dados bancários do clube para recebimento dos repasses.
+- Calendário de jogos e eventos: Informações sobre partidas, datas, horários e locais para liberação de benefícios aos sócios.
+- Planos e benefícios de sócio torcedor (valores, regras, descontos e categorias)
+- Informações sobre o estádio e setores (mapa de setores, capacidade e preços)
+
 **Dados gerados pelo sistema:**
+
 - Status de adimplência/inadimplência
-- Histórico de check-ins em jogos
-- Pontuação de engajamento (frequência de uso do app, presença em jogos)
+- Pontuação de engajamento 
 - Logs de acesso e uso da plataforma
 - Relatórios agregados de receita, churn e ocupação de setores
 
@@ -99,8 +104,6 @@ Diretoria Executiva
 | Time de atendimento do clube | Consulta cadastro e histórico para resolver chamados |
 | Financeiro do clube | Acompanha inadimplência e receita recorrente |
 | Marketing do clube | Usa dados de engajamento para campanhas segmentadas |
-| Bilheteria/operação do jogo | Valida check-in e direito a ingresso com desconto |
-| Diretoria do clube | Consome relatórios agregados (TorcePlus Insights) |
 | Equipe interna da TorcePlus | Suporte técnico, manutenção, evolução do produto |
 
 ## Onde os dados são armazenados
