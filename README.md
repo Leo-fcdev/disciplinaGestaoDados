@@ -75,14 +75,14 @@ Diretoria Executiva
 
 ## Dados que o sistema produz e utiliza
 
-**Dados de fornecidos pelo torcedor ou pelo clube:**
+**Dados de fornecidos pelo torcedor:**
 
 - Dados cadastrais: nome, CPF, data de nascimento, endereço, telefone, e-mail
 - Dados de pagamento: cartão de crédito (tokenizado), histórico de cobranças, forma de pagamento escolhida
 - Plano de sócio contratado e data de adesão
 - Preferências: time do coração dentro do clube (categoria/torcida organizada), setor preferido do estádio
 
-**Dados de fornecidos pelo clube**
+**Dados de fornecidos pelo clube:**
 
 - Dados cadastrais da instituição: Razão social, CNPJ, logotipo oficial e dados bancários do clube para recebimento dos repasses.
 - Calendário de jogos e eventos: Informações sobre partidas, datas, horários e locais para liberação de benefícios aos sócios.
