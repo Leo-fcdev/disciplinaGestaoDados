@@ -1,6 +1,6 @@
-Data Architecture
 
-A arquitetura de dados do TorcePlus foi redesenhada para unificar as funcionalidades transacionais (Core) e analíticas (Insights) em uma única plataforma integrada para os clubes.
+
+##A arquitetura de dados do TorcePlus foi redesenhada para unificar as funcionalidades transacionais (Core) e analíticas (Insights) em uma única plataforma integrada para os clubes.
 
 ### A. Sistemas Envolvidos
 1. **TorcePlus App (Mobile/Web):** Interface do torcedor para cadastro, pagamento de assinaturas e resgate de descontos/benefícios.
