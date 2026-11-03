@@ -1,8 +1,5 @@
 # Sistema de Gestão de Dados e Transações - Projeto Integrado
 
-## 👥 Integrantes da Equipe
-* **Leonardo Freitas de Carvalho Nery** - *Engenharia de Software / Arquitetura de Dados*
-
 ## 📌 Descrição do Sistema
 Solução de arquitetura, modelagem, armazenamento, segurança e integração de dados desenvolvida para a disciplina de Gestão de Dados. O sistema foi projetado para alta concorrência (ACID), conformidade com LGPD e integrações via microsserviços.
 
